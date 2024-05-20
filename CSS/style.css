@@ -17,7 +17,9 @@ main page color: rgb(20, 25, 34) */
     position: fixed;
     height: 60px;
     width: 100%;
-    background-color:rgb(40, 40, 40) ;
+    background-color:rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
 }
 .top-section {
     display: flex;
@@ -220,7 +222,6 @@ main page color: rgb(20, 25, 34) */
     background-color: gray;
     padding: 0.5px;
 }
-
 .profile {
     color: white;
     display: flex;
@@ -234,3 +235,72 @@ main page color: rgb(20, 25, 34) */
     width: 12%;
     
 }
+/******************************************************************************************
+                                PLAYER LEFT
+******************************************************************************************/
+.player-left {
+    display: flex;
+    width: calc(100% / 3);
+}
+.player-left img {
+    width: 10%;
+    margin: 0 2%;
+}
+.player-left .song-title {
+    color: white;
+    font-weight: bold;
+}
+.player-left .song-subtitle {
+    color: rgb(124, 126, 131);
+    text-decoration: none;
+    font-size: 13px;
+}
+.player-left a {
+    color: rgb(124, 126, 131);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.heart {
+    margin-left: 20%;
+    margin-right: 4%;
+}
+.player-left a:hover {
+    color: white;
+}
+.song-subtitle:hover {
+    text-decoration: underline;
+}
+/******************************************************************************************
+                                PLAYER CENTER
+******************************************************************************************/
+.player-center {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    color: white;
+    font-size: 20px;
+}
+.charging-bar {
+    display: flex;
+    align-items: center;
+    margin: 1% 0 -1%
+}
+.passed-time, .remaining-time {
+    color: white;
+    font-size: 10px;
+}
+.time-bar {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(90, 90, 90);
+    margin: 0 5%;
+}
+/******************************************************************************************
+                                PLAYER RIGHT
+******************************************************************************************/
