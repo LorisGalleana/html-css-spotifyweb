@@ -36,9 +36,19 @@ main page color: rgb(20, 25, 34) */
 }
 .upgrade-bar {
     position: fixed;
-    background-color: rgba(8, 11, 18, 0.2);
+    background-color: rgba(8, 11, 18, 0.4);
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:white
+}
+.upgrade-button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 1px white solid;
+    margin-right: 1%;
 }
 .nav-bar {
     font-size: 12px;
