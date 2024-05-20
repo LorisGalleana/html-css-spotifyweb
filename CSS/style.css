@@ -15,13 +15,13 @@ main page color: rgb(20, 25, 34) */
 }
 .bottom-section {
     position: fixed;
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-color:rgb(40, 40, 40) ;
 }
 .top-section {
     display: flex;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
 }
 .side-menu {
     width: 200px;
@@ -29,6 +29,7 @@ main page color: rgb(20, 25, 34) */
     position: fixed;
     margin-right: 200px;
     height: 100%;
+    font-size: 14px;
 }
 .main-page {
     width: 100vw;
@@ -36,6 +37,9 @@ main page color: rgb(20, 25, 34) */
     height: fit-content;
     margin-left: 200px;
 }
+/******************************************************************************************
+                                UPGRADE BAR
+******************************************************************************************/
 .upgrade-bar {
     position: fixed;
     background-color: rgba(8, 11, 18, 0.4);
@@ -52,6 +56,9 @@ main page color: rgb(20, 25, 34) */
     border: 1px white solid;
     margin-right: 1%;
 }
+/******************************************************************************************
+                                NAV BAR
+******************************************************************************************/
 .nav-bar {
     font-size: 14px;
 }
@@ -77,6 +84,9 @@ main page color: rgb(20, 25, 34) */
 .nav-bar li:hover .higlight {
     display: block;
 }
+/******************************************************************************************
+                                MAIN PAGE
+******************************************************************************************/
 .recently-played {
     margin: 5% 2%;
     color: white;
@@ -128,4 +138,99 @@ main page color: rgb(20, 25, 34) */
 }
 .more-popular .track-image img {
     border-radius: 50%;
+}
+/******************************************************************************************
+                                SIDE MENU
+******************************************************************************************/
+.side-menu img {
+    width: 70%;
+    margin: 10%;
+}
+.home, .search, .library {
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    filter: opacity(0.5);
+    text-decoration: none;
+    
+}
+.home:hover, .search:hover, .library:hover {
+    border-left: 3px solid greenyellow;
+    filter: none;
+}
+.home img, .search img, .library img {
+    width: 15%;
+    margin: 0 0 0 5%;
+}
+.add-playlist {
+    text-decoration: none;
+    color: black;
+}
+.add-playlist .fa-plus {
+    background-color: rgb(163, 163, 163);
+    padding: 8px;
+    margin-left: 10%;
+}
+.add-playlist span {
+    color: white;
+    filter: opacity(0.5);
+}
+.add-playlist span:hover {
+    color: white;
+    filter: none;
+}
+.playlist li {
+    list-style: none;
+    margin: 5%;
+    margin-left: 10%;
+}
+.playlist ul a {
+    text-decoration: none;
+    color: white;
+    filter: opacity(0.5);
+}
+.playlist a:hover {
+    filter: none;
+}
+.playlist {
+    align-content: end;
+}
+.download {
+    color: white;
+    margin: 65% 0 0 10%;
+    display: flex;
+    gap: 5%;
+    filter: opacity(0.5);
+    text-decoration: none;
+}
+.download:hover {
+    filter: none;
+}
+.download img, .profile img {
+    width: 10%;
+    margin: 0;
+}
+.breaking-line {
+    width: 80%;
+    margin: 4% auto;
+    background-color: gray;
+    padding: 0.5px;
+}
+
+.profile {
+    color: white;
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+    align-items: center;
+}
+.profile img {
+    background-color: rgb(163, 163, 163);
+    border-radius: 50%;
+    width: 12%;
+    
 }
