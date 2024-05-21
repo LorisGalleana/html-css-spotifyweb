@@ -306,16 +306,19 @@ body {
     align-items: center;
     text-decoration: none;
 }
-.heart {
-    margin-left: 20%;
-    margin-right: 4%;
+.icons {
+    display: flex;
+    margin-left: 15%;
+    gap: 21%;
 }
+
 .player-left a:hover {
     color: white;
 }
 .song-subtitle:hover {
     text-decoration: underline;
 }
+
 /******************************************************************************************
                                 PLAYER CENTER
 ******************************************************************************************/

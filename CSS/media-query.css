@@ -41,3 +41,52 @@
         z-index: 1;
     }
 }
+
+
+@media screen and (max-width: 580px) {
+    .top-section {
+        height: calc(100vh - 65px);
+    }
+    .bottom-section {
+        height: 65px;
+    }
+    .music-track {
+        width: calc(100% / 2 - 4%);
+        margin: 0 auto;
+        margin-bottom: 4%;
+    }
+    .track-title {
+        font-size: 16px;
+    }
+    .upgrade-bar {
+        font-size: 14px;
+    }
+    .player-left {
+        margin-right: 4%;
+    }
+    .player-right {
+        margin-left: -4%;
+        margin-top: 2%;
+    }
+    .icons {
+        display: block;
+    }
+    .separation-space {
+        height: 10%;
+    }
+    .player-left img {
+        width: 20%;
+    }
+    .player-right .time-bar {
+        width: 38%;
+    }
+    .charging-bar {
+        margin: 8% 0 -1%;
+    }
+    .controls {
+        font-size: 25px;
+    }
+    .bottom-block {
+        top: 79vh;
+    }
+}
