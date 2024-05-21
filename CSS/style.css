@@ -279,9 +279,13 @@ body {
     
 }
 .bottom-block {
-    position: sticky;
+    /* position: sticky;
     top: 76vh;
+    background-color: black; */
+    position: absolute;
+    bottom: 85px;
     background-color: black;
+    width: 13%;
 }
 /******************************************************************************************
                                 PLAYER LEFT
