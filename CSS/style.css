@@ -57,6 +57,14 @@ main page color: rgb(20, 25, 34) */
     padding: 10px 30px;
     border: 1px white solid;
     margin-right: 1%;
+    color: white;
+    text-decoration: none;
+}
+.upgrade-button:hover {
+    /* padding: 15px 40px; */
+    /* border-radius: 30px; */
+    margin: 0;
+    font-size: 18px;
 }
 /******************************************************************************************
                                 NAV BAR
@@ -120,6 +128,8 @@ main page color: rgb(20, 25, 34) */
     display: none;
     justify-content: center;
     font-size: 60px;
+    color: white;
+    text-decoration: none;
 }
 .track-image:hover .play-track {
     display: flex;
