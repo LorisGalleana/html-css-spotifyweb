@@ -213,9 +213,12 @@ main page color: rgb(20, 25, 34) */
     color: white;
     filter: opacity(0.5);
 }
-.add-playlist span:hover {
+.add-playlist:hover span {
     color: white;
     filter: none;
+}
+.add-playlist:hover .fa-plus {
+    background-color: white;
 }
 .playlist li {
     list-style: none;
