@@ -1,0 +1,18 @@
+@media screen and (max-width: 800px) {
+
+    .nav-bar ul {
+        flex-wrap: wrap;
+        line-height: 200%;
+    }
+    .music {
+        display: flex;
+        gap: 2%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .music-track {
+        width: calc(100% / 4 - 2%);
+        margin-bottom: 4%;
+    }
+    
+}
