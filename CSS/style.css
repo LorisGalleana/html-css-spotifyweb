@@ -91,6 +91,9 @@ main page color: rgb(20, 25, 34) */
     margin-top: 5%;
     display: none;
 }
+.nav-bar a:hover {
+    color: white;
+}
 .nav-bar li:hover .higlight {
     display: block;
 }
