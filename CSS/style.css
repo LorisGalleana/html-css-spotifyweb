@@ -318,8 +318,14 @@ main page color: rgb(20, 25, 34) */
     display: flex;
     justify-content: center;
     gap: 10%;
-    color: white;
     font-size: 20px;
+}
+.controls a {
+    color: white;
+    text-decoration: none;
+}
+.controls .fa-circle-play:hover {
+    font-size: 22px;
 }
 .charging-bar {
     display: flex;
@@ -349,10 +355,13 @@ main page color: rgb(20, 25, 34) */
 .player-right {
     width: calc(100% / 3);
     display: flex;
-    color: white;
     gap: 3%;
     justify-content: flex-end;
     align-items: center;
+}
+.player-right a {
+    color: white;
+    text-decoration: none;
 }
 .player-right .time-bar {
     width: 20%;
@@ -367,4 +376,21 @@ main page color: rgb(20, 25, 34) */
     width: 20%;
     background-color: rgb(154, 154, 154);
     border-radius: 5px;
+}
+.fill:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.fill {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.fill .fa-circle {
+    display: none;
+    color: white;
+    font-size: 10px;
+}
+.fill:hover .fa-circle {
+    display: block;
 }
