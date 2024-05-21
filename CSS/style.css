@@ -181,6 +181,9 @@ body {
     width: 70%;
     margin: 10%;
 }
+.small-logo {
+    display:none;
+}
 .home, .search, .library {
     color: white;
     vertical-align: middle;
@@ -222,7 +225,7 @@ body {
     background-color: white;
 }
 .playlist {
-    height: 58%;
+    height: 35%;
 }
 .playlist li {
     list-style: none;
@@ -238,7 +241,7 @@ body {
     filter: none;
 }
 .playlist .scrolling-list {
-    height: 50%;
+    height: 100%;
     overflow: auto;
 }
 .download {
@@ -277,7 +280,7 @@ body {
 }
 .bottom-block {
     position: sticky;
-    top: 83vh;
+    top: 76vh;
     background-color: black;
 }
 /******************************************************************************************

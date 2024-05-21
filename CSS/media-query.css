@@ -90,3 +90,89 @@
         top: 79vh;
     }
 }
+@media screen and (max-width: 380px) {
+    .side-menu {
+        width: 35px;
+        margin-right: 35px;
+    }
+    .main-page {
+        margin-left: 35px;
+    }
+    .upgrade-bar {
+        width: calc(100% - 35px);
+        height: 80px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .big-logo {
+        display:none;
+    }
+    .small-logo {
+        display:block;
+    }
+    .home img, .search img, .library img, .profile img {
+        width: 70%;
+        margin: 10%;
+    }
+    .download img {
+        width: 60%;
+        margin: 10%;
+    }
+    .breaking-line {
+        display: none;
+    }
+    .home .text, .search .text, .library .text, .download .text, .profile h3 {
+        display: none;
+    }
+    .playlist {
+        display: none;
+    }
+    .nav-bar {
+        font-size: 10px;
+        margin: 0 2%;
+    }
+    .nav-bar ul {
+        margin-top: 80px;
+    }
+    .nav-bar ul li {
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+    .track-title {
+        font-size: 11px;
+    }
+    .track-subtitle, .created-for-you span, .more-popular span {
+        font-size: 10px;
+    }
+    .bottom-section {
+        gap: 10%;
+    }
+    .player-left img {
+        width: 35%;
+        object-fit: contain;
+        margin: 0 10%;
+    }
+    .player-left .song-title {
+        font-size: 10px;
+    }
+    .player-left .song-subtitle {
+        font-size: 10px;
+    }
+    .icons {
+        display: block;
+        font-size: 14px;
+    }
+    .controls {
+        font-size: 16px;
+    }
+    .passed-time {
+        margin-left: -15%;
+    }
+    .remaining-time {
+        margin-right: -15%;
+    }
+    .player-right {
+        font-size: 10px;
+        gap: 6%;
+    }
+}
