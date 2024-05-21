@@ -13,6 +13,9 @@ main page color: rgb(20, 25, 34) */
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 .bottom-section {
     position: fixed;
     height: 60px;
@@ -61,8 +64,6 @@ main page color: rgb(20, 25, 34) */
     text-decoration: none;
 }
 .upgrade-button:hover {
-    /* padding: 15px 40px; */
-    /* border-radius: 30px; */
     margin: 0;
     font-size: 18px;
 }
@@ -233,8 +234,9 @@ main page color: rgb(20, 25, 34) */
 .playlist a:hover {
     filter: none;
 }
-.playlist {
-    align-content: end;
+.playlist  {
+    height: 35%;
+    overflow: auto;
 }
 .download {
     color: white;
@@ -269,6 +271,11 @@ main page color: rgb(20, 25, 34) */
     border-radius: 50%;
     width: 12%;
     
+}
+.bottom-block {
+    position: sticky;
+    bottom: 60px;
+    background-color: black;
 }
 /******************************************************************************************
                                 PLAYER LEFT
