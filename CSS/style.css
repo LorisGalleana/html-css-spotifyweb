@@ -225,7 +225,7 @@ body {
     background-color: white;
 }
 .playlist {
-    height: 35%;
+    height: 33%;
 }
 .playlist li {
     list-style: none;
@@ -243,6 +243,9 @@ body {
 .playlist .scrolling-list {
     height: 100%;
     overflow: auto;
+}
+.breaking-space {
+    height: 100%;
 }
 .download {
     color: white;
@@ -282,10 +285,6 @@ body {
     position: sticky;
     bottom: 85px;
     background-color: black;
-    /* position: absolute;
-    bottom: 85px;
-    background-color: black;
-    width: 13%; */
 }
 /******************************************************************************************
                                 PLAYER LEFT
