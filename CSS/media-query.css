@@ -170,3 +170,13 @@
         gap: 6%;
     }
 }
+@media screen and (max-height: 460px)
+{
+    .bottom-block {
+        bottom: 0px;
+        margin-top: -36px;
+    }
+    .breaking-space {
+        height: 0%;
+    }
+}
